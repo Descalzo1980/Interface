@@ -16,5 +16,11 @@ public class Main {
         for (Animal animal : animals) {
             animal.eat();
         }
+
+        Dog dog1 = new Dog();
+        dog1.run();
+        Animal animal = dog1;
+        dog1 = (Dog) animal;
+        dog1.run();
     }
 }

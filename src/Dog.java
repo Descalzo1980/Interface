@@ -4,4 +4,8 @@ public class Dog extends Animal{
         System.out.println("Кость");
         return null;
     }
+
+    public void run(){
+        System.out.println("Собака бежит");
+    }
 }
