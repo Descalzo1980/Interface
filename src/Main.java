@@ -22,5 +22,8 @@ public class Main {
         Animal animal = dog1;
         dog1 = (Dog) animal;
         dog1.run();
+        Cat cat1 = new Cat();
+        Animal animal1 = cat1;
+        Dog dog2 = (Dog) animal1;
     }
 }
